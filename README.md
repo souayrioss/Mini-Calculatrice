@@ -1,1 +1,1 @@
-# Mini-Calculatrice-en-Javascript
+# Mini Calculatrice en Javascript
