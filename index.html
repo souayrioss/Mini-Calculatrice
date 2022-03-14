@@ -11,7 +11,12 @@
   <div id="calculBody"> 
     <div class="row">  
       <span id="outPut" class="outPut">0</span>
-      <input id="AC" type="button" onclick="clearAll()" value="AC"/> 
+    </div>
+    <div class="row">
+      <input type="button" onclick="inputOperator('^')" value="x°"/>
+      <input type="button" onclick="inputOperator('√')" value="√"/>
+      <input type="button"  onclick="inputOperator('%')" value="%"/>
+      <input id="AC" type="button" onclick="clearAll()" value="AC"/>
     </div>
       <div class="row">
           <input type="button" onclick="inputNumeric('7')" value="7"/>
@@ -34,14 +39,12 @@
       <div class="row">
           <input type="button"  onclick="inputNumeric('0')" value="0"/>
           <input type="button" onclick="inputNumeric('.')" value="."/>
-          <input id="equals" type="button"  onclick="calculateQueue(queue)" value="="/>
+          <input id="equals" type="button"  onclick="calculateQueue(tabOperation)" value="="/>
           <input type="button" onclick="inputOperator('/')" value="/"/>
-              
-    
-    </div>
+      </div>
     </div>
     
-    <script src="js/test.js">
+    <script src="js/JavaScript.js">
 
     </script>
 </body>
